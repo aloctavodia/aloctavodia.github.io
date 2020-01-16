@@ -80,6 +80,7 @@ html, body {
   padding-right : 5%;
 }
 .name {
+ text-align: center;
  line-height: 0;
 }
 
