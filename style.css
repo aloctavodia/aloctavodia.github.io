@@ -79,10 +79,14 @@ html, body {
   line-height: 1.4;
   padding-right : 5%;
 }
+
+
 .name {
  text-align: center;
  margin-bottom: 1px;
  margin-top: 1px;
+ font-size:25px;
+ font-weight: bold;
 }
 
 
