@@ -14,16 +14,14 @@ html, body {
 }
 
 
-/* Add a black background color to the top navigation */
 .topnav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #454545;
+  background-color: #404040;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -33,22 +31,18 @@ html, body {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   color: #ff5733;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   color: #ff5733;
   font-weight: bold;
 }
 
-
 .wrapper {
   margin: 0px;
 }
-
 
 .row1 {
   background-color: #F5F5F5;
@@ -80,7 +74,6 @@ html, body {
   padding-right : 5%;
 }
 
-
 .name {
  text-align: center;
  margin-bottom: 1px;
@@ -89,11 +82,10 @@ html, body {
  font-weight: bold;
 }
 
-
 .subtitle {
  color: #909090;
  text-align: center;
- margin-bottom: 5px;
+ margin-bottom: 20px;
  margin-top: 5px;
  }
 
@@ -103,6 +95,7 @@ html, body {
  text-align: center;
  margin-bottom: 5px;
  margin-top: 5px;
+ font-weight: bold;
  }
 
 .social-links, .skill-icons{
@@ -130,8 +123,9 @@ html, body {
 .skill-icons li {
   display: inline-block;
   margin-right: 50px;
-  color:  #ff5733;
-  line-height: 2;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color:  #404040;
   text-align:center;
 }
 
