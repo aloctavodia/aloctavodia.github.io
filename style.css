@@ -88,6 +88,13 @@ html, body {
  margin-bottom: 20px;
  margin-top: 5px;
  }
+ 
+.center {
+ font-size: 18px;
+ margin-top: 10px;
+ margin-right: 60px;
+ margin-left: 60px;
+}
 
 .workplace-link {
  color:  #ff5733;
