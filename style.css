@@ -125,7 +125,7 @@ article {
   gap: 20rem;
 }
 
-@media (max-width: 768px) {
+@media screen and  (max-width: 1000px) {
     article {
       display: block;
       font-size: 80%;
