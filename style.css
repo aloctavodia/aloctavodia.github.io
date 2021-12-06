@@ -119,7 +119,7 @@ html, body {
 article {
   display: grid;
   grid-template-rows: 500px 0px;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 200px 1fr;
   align-items: center;
   gap: 20rem;
 }
