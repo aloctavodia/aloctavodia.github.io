@@ -61,10 +61,6 @@ html, body {
   justify-content: center;
   flex-basis: 100%;
   flex: 1;
-
-}
-
-.left {
   align-items: center;
   justify-content: center;
 }
@@ -97,10 +93,43 @@ html, body {
   padding-right : 5%;
 }
 
+.center {
+  margin: -400px;
+  justify-content: center;
+}
+
+
+.img_book {
+    width: 35%;
+    float: left;
+    padding-left : 15%;
+  }
+.p_book {
+    width: 80%;
+    float: left;
+  }
+  
+.book-links{
+  text-decoration: none;
+  color:  #ff5733;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left : 35%;
+}
+
+article {
+  display: grid;
+  grid-template-rows: 500px 0px;
+  grid-template-columns: 300px 1fr;
+  align-items: center;
+  gap: 20rem;
+}
+
+
 .name {
  text-align: center;
  margin-bottom: 1px;
- margin-top: 1px;
+ margin-top: 100px;
  font-size:25px;
  font-weight: bold;
 }
