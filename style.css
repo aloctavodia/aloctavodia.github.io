@@ -128,8 +128,20 @@ article {
 @media screen and  (max-width: 1000px) {
     article {
       display: block;
-      font-size: 80%;
+      font-size: 60%;
     }
+    .center {
+      margin: -1000px;
+    }
+    .img_book {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    .p_book {
+      text-align: justify;
+      width: 75%;
+      margin-bottom: 35px;
+      }
   }
 
 
