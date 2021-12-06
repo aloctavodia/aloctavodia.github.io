@@ -116,6 +116,7 @@ html, body {
   padding-left : 35%;
 }
 
+
 article {
   display: grid;
   grid-template-rows: 500px 0px;
@@ -123,6 +124,13 @@ article {
   align-items: center;
   gap: 20rem;
 }
+
+@media (max-width: 650px) {
+    article {
+      display: block;
+      font-size: 80%;
+    }
+  }
 
 
 .name {
