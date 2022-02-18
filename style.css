@@ -106,6 +106,7 @@ html, body {
   }
 .p_book {
     float: left;
+   line-height: 1.5;
   }
   
 .book-links{
@@ -148,7 +149,7 @@ article {
 .name {
  text-align: center;
  margin-bottom: 1px;
- margin-top: 100px;
+ margin-top: 50px;
  font-size:25px;
  font-weight: bold;
 }
@@ -219,4 +220,21 @@ article {
   color:  #ff5733;
   font-size: 20px;
   font-weight: bold;
+}
+
+
+.column_s {
+  float: left;
+  width: 20%;
+}
+
+.column_c {
+  float: left;
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row {
+    height: 90%;
+    display: flex;
 }
