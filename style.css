@@ -157,7 +157,7 @@ article {
 .subtitle {
  color: #909090;
  text-align: center;
- margin-bottom: 20px;
+ margin-bottom: 5px;
  margin-top: 10px;
  }
 
@@ -173,7 +173,7 @@ article {
  text-decoration: none;
  text-align: center;
  margin-bottom: 5px;
- margin-top: 5px;
+ margin-top: 0px;
  font-weight: bold;
  }
 
