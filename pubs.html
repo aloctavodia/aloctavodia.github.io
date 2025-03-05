@@ -15,7 +15,7 @@
   <a href="index.html">Home</a>
   <a class="active" href="pubs.html">Publications</a>
   <a href="books.html">Books</a>
-  <a href="CV_oam.pdf">CV</a>
+  <a href="CV_en_OAM.pdf">CV</a>
 </div> 
 
 
@@ -31,6 +31,22 @@
         For a full list of publications you can check <a href="https://scholar.google.com/citations?user=WUvDNnkAAAAJ">Google Scholar</a>.
         <br>
         <br>
+
+        <p>
+          <a class="pub-links" href="https://arxiv.org/abs/2503.01509/">Recommendations for visual predictive checks in Bayesian workflow</a><br/><br/>
+          A key step in the Bayesian workflow for model building is the graphical assessment of model predictions, whether these are drawn from the prior or
+          posterior predictive distribution. The goal of these assessments is to identify whether the model is a reasonable (and ideally accurate) representation
+          of the domain knowledge and/or observed data. There are many commonly used visual predictive checks which can be misleading if their implicit assumptions
+          do not match the reality. Thus, there is a need for more guidance for selecting, interpreting, and diagnosing appropriate visualizations. As a visual
+          predictive check itself can be viewed as a model fit to data, assessing when this model fails to represent the data is important for drawing well-informed
+          conclusions. We present recommendations and diagnostic tools to mitigate ad-hoc decision-making in visual predictive checks. These contributions aim to
+          improve the robustness and interpretability of Bayesian model criticism practices. We offer recommendations for appropriate visual predictive checks for
+          observations that are: continuous, discrete, or a mixture of the two. We also discuss diagnostics to aid in the selection of visual methods. Specifically,
+          in the detection of an incorrect assumption of continuously-distributed data: identifying when data is likely to be discrete or contain discrete components,
+          detecting and estimating possible bounds in data, and a diagnostic of the goodness-of-fit to data for density plots made through kernel density estimates. 
+          </p>
+      
+        <p>
 
 
         <p>
@@ -77,16 +93,6 @@ Many applied disciplines have recognized problems related to the practice of dat
  
 Bayesian additive regression trees (BART) is a non-parametric method to approximate functions. It is a black-box method based on the sum of many trees where priors are used to regularize inference, mainly by restricting trees' learning capacity so that no individual tree is able to explain the data, but rather the sum of trees. We discuss BART in the context of probabilistic programming languages (PPLs), specifically we introduce a BART implementation extending PyMC, a Python library for probabilistic programming. We present a few examples of models that can be built using this probabilistic programming-oriented version of BART, discuss recommendations for sample diagnostics and selection of model hyperparameters, and finally we close with limitations of the current approach and future extensions. 
         </p>
-
-
-         <p>
-         <a class="pub-links" href="17081801.pdf"> Exploring the quality of protein structural models from a Bayesian perspective</a><br/><br/>
-We explore how ideas and practices common in Bayesian modeling can be applied to assess the quality of 3D protein structural models. The basic premise of our
-approach is that the evaluation of a Bayesian statistical model's fit may reveal aspects of the quality of a structure when the fitted data is related to protein structural properties. Therefore, we fit a Bayesian hierarchical linear regression model to experimental and theoretical 13Cα chemical shifts. Then, we propose two complementary approaches
-for the evaluation of such fitting: (a) in terms of the expected differences between experimental and posterior predicted values; (b) in terms of the leave-one-out cross-validation
-point-wise predictive accuracy. Finally, we present visualizations that can help interpret these evaluations.
-         </p>
-
 
          <p>
          <a class="pub-links" href="https://joss.theoj.org/papers/10.21105/joss.01143"> ArviZ a unified library for exploratory analysis of Bayesian models in Python</a><br/><br/>
